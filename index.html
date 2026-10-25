@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/nimbus11/nimbus.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // 手機、平板：用 1024px 寬的版面整個縮小顯示（介面是照電腦設計的），可以雙指放大
+      if (Math.min(screen.width, screen.height) < 1024) document.querySelector('meta[name=viewport]').content = 'width=1024';
+    </script>
     <title>Nimbus 11</title>
-    <script type="module" crossorigin src="/nimbus11/assets/index-DtMzPFno.js"></script>
-    <link rel="stylesheet" crossorigin href="/nimbus11/assets/index-D0mD8TDW.css">
+    <script type="module" crossorigin src="/nimbus11/assets/index-CoPe8JQi.js"></script>
+    <link rel="stylesheet" crossorigin href="/nimbus11/assets/index-DfQHkEZ_.css">
   </head>
   <body>
     <div id="root"></div>
